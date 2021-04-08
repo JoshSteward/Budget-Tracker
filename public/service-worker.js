@@ -1,9 +1,8 @@
-const FILES_T0_CACHE = [
+const FILES_TO_CACHE = [
     "/",
     "/index.html",
-    "/favicon.ico",
-    "/styles.css",
     "/index.js",
+    "/styles.css",
     "/icons/icon-192x192.png",
     "/icons/icon-512x512.png"
 ];
