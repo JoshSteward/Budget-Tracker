@@ -49,7 +49,7 @@ self.addEventListener("install", function (evt) {
         caches.open(DATA_CACHE_NAME).then(cache => {
           return fetch(evt.request)
             .then(response => {
-              // Clone good response and store it in cache
+              // Clone good response and store it in cache 
               if (response.status === 200) {
                 cache.put(evt.request.url, response.clone());
               }
